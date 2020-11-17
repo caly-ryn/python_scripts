@@ -8,7 +8,7 @@ total_breaks = 7
 break_count = 0
 
 while(break_count<total_breaks):
-    time.sleep(4000)
+    time.sleep(2700)
     webbrowser.get('Safari').open('https://randomgoat.com/')
     time.sleep(18)
     os.system("killall -9 'Safari'")
